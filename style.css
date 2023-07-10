@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-bg{
+    background-color: #faecef;
+
+}
+.banner-tool{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.7rem;
+    gap: 5rem;
+}
+.banner-title h3{
+    font-size: 3.2rem;
+    color: #272727;
+}
+.banner-title p{
+    font-size: 1.3rem;
+    color: #272727;
+    margin-top: 1.1rem;
+    margin-bottom: 1.4rem;
+    text-align: justify;
+
+}
+.banner-btn{
+background-color: #eb4065;
+padding: 1rem 1.5rem 1rem 1.5rem;
+font-size: 1.5rem;
+font-weight: bold;
+border: none;
+border-radius: .7rem;
+color: white;
+}
+.banner-btn:hover{
+    color: black;
+    cursor: pointer;
+}
+.banner-image img{
+height: 35rem;
+width: 32rem;
+}
